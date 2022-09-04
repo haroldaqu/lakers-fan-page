@@ -1,15 +1,11 @@
-import PlayerCards from './PlayerCards';
+import PlayerCards from '../../components/player-cards/PlayerCards';
 import './Roster.css'
+import StatsModal from './stats-modal/StatsModal';
 
 const Roster = () => {
     return ( 
         <main className="roster">
-            <PlayerCards />
-            {/* <PlayerCards />
-            <PlayerCards />
-            <PlayerCards />
-            <PlayerCards />
-            <PlayerCards /> */}
+            <StatsModal />
         </main>
      );
 }

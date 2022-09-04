@@ -1,9 +1,10 @@
 import './Schedule.css'
+import ScheduleCards from './ScheduleCards';
 
 const Schedule = () => {
     return ( 
         <main className="schedule">
-            Schedule
+            <ScheduleCards />
         </main>
      );
 }

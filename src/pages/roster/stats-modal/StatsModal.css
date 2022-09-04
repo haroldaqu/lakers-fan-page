@@ -1,0 +1,28 @@
+.stats-modal {
+    display: flex;
+    width: 100%;
+}
+
+.stats-modal > div {
+    width: 50%;
+}
+
+.player-cont {
+    display: flex;
+}
+
+.stats {
+    width: 20%;
+}
+
+.player-img {
+    width: 70%;
+}
+
+.player-about h1, .player-about div {
+    height: 33%;
+}
+
+.player-about h1 {
+
+}
