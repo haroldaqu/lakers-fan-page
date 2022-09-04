@@ -1,9 +1,15 @@
+import PlayerCards from './PlayerCards';
 import './Roster.css'
 
 const Roster = () => {
     return ( 
         <main className="roster">
-            Roster
+            <PlayerCards />
+            {/* <PlayerCards />
+            <PlayerCards />
+            <PlayerCards />
+            <PlayerCards />
+            <PlayerCards /> */}
         </main>
      );
 }

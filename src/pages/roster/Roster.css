@@ -1,0 +1,8 @@
+.roster {
+    display: flex;
+    flex-wrap: wrap;
+    outline: solid red;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}

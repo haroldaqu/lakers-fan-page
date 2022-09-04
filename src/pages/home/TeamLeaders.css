@@ -1,0 +1,21 @@
+/* just for card design */ 
+.home-stats-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.title-team-leaders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+

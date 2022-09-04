@@ -1,0 +1,52 @@
+.player-cards {
+    width: 30%;
+}
+
+.player-pic-cont {
+    position: relative;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: solid white;
+    /* border-radius: 100% 100% 0 0; */
+    border-radius: 10px;
+}
+
+.player-pic {
+    filter: grayscale(100%);
+    width: 100%;
+    border-radius: 100% 100% 0 0;
+    padding: 0 0.25rem 0 0.25rem;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-name {
+    text-align: center;
+    font-size: 2.75rem;
+    width: 100%;
+    /* letter-spacing: 0.25rem; */
+    word-spacing: 2rem;
+}
+
+.view-stats-btn {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 2.5px 2.5px 0 0;
+    cursor: pointer;
+}
+

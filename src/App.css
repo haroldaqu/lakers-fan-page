@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.App {
+    background: black;
+    font-family: 'Anek Telugu', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
