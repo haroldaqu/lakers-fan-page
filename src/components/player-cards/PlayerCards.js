@@ -1,15 +1,15 @@
 import './PlayerCards.css'
+import players from '../../data/data';
 
-const PlayerCards = () => {
+const PlayerCards = ({player}) => {
     return ( 
         <div className="player-cards">
-            <div className="player-pic-cont">
-                <img src="https://lalweb.blob.core.windows.net/public/lakers/product-marketing/web/player-page/2122_lal_mktg_roster_westbrook_1920x2304.jpg" alt="" className='player-pic'/>
-                <button className='view-stats-btn'>View Stats</button>
-                {/* <h1 className="view-stats-btn">33.3 PPG</h1> */}
+            <div className="player__pic">
+                <img src={player.src} alt="" className='player__pic--image'/>
+                <button className='btn__view-stats'>View Stats</button>
             </div>   
-            <div className="player-info">
-                <span className='player-name'>Russell Westbrook</span>
+            <div className="player__info">
+                <span className='player__info--name'> {player.name} </span>
             </div>         
         </div>
 

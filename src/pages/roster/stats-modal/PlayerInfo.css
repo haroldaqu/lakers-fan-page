@@ -1,0 +1,6 @@
+.player-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 66%;
+}

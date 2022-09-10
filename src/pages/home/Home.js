@@ -7,8 +7,8 @@ const Home = () => {
     return ( 
         <main className="home">
             <HomePic />
-            <TeamLeaders />
-            <TeamStats />
+            {/* <TeamLeaders />
+            <TeamStats /> */}
         </main>
      );
 }

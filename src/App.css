@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Roboto&display=swap');
 
+:root {
+    --lakers-gold: #FDB927;
+    --lakers-purple: #552583;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,4 +15,5 @@
     background: black;
     font-family: 'Anek Telugu', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
+    padding: 0 3rem 0 3rem;
 }

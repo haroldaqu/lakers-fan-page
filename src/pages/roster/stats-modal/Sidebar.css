@@ -1,0 +1,10 @@
+.stats-sidebar {
+    /* outline: solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-sidebar > p {
+    border-bottom: solid #FDB927 2px;
+    margin-bottom: 1rem;
+}

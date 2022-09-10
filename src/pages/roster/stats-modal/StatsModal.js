@@ -1,38 +1,29 @@
+import Averages from './Averages';
+import Name from './Name';
+import PlayerInfo from './PlayerInfo';
+import Sidebar from './Sidebar';
 import './StatsModal.css'
 
 const StatsModal = () => {
     return ( 
         <div className="stats-modal">
             <div className="player-cont">
-                <div className="stats">
-                    <p>Per Game Splits</p>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                    <span>Games</span>
-                    <h2>60</h2>
-                </div>
-                <img src="https://lalweb.blob.core.windows.net/public/lakers/product-marketing/web/player-page/2122_lal_mktg_roster_westbrook_1920x2304.jpg" alt="" className="player-img" />
+                <Sidebar />
+                <img src={require('/Users/Harold/lakers-fan-page/src/images/westbrook.png')} alt="" className="player-img" />
             </div>
             <div className="player-about">
-                <h1>Russel Westbrook</h1>
-                <div className="player-profile">Profile</div>
-                <div className="player-bio">Bio</div>
+                <Name />
+                <div className="player-info">
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                    <Averages/>
+                </div>
+                <div className="player-info">In his first season donning the Purple and Gold, Russell Westbrook started and played the most games of any Laker (78 games). Brodie added 10 triple-doubles to his league-leading career stat and finished fourth in the NBA.</div>
             </div>
         </div>
      );

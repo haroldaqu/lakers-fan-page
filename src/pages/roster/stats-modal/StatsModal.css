@@ -1,6 +1,8 @@
 .stats-modal {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .stats-modal > div {
@@ -19,8 +21,9 @@
     width: 70%;
 }
 
-.player-about h1, .player-about div {
+.player-about > div {
     height: 33%;
+    /* outline: solid red; */
 }
 
 .player-about h1 {
