@@ -1,16 +1,16 @@
 .stats-modal {
+    position: relative;
     display: flex;
-    /* width: 100%; */
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 100%;
 }
 
 .stats-modal > div {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .player-cont {
     display: flex;
+    width: 60%;
 }
 
 .stats {
@@ -21,11 +21,15 @@
     width: 70%;
 }
 
+.player-about {
+    width: 40%;
+}
+
 .player-about > div {
     height: 33%;
     /* outline: solid red; */
 }
 
-.player-about h1 {
 
-}
+
+

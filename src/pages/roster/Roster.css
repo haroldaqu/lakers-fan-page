@@ -1,4 +1,5 @@
 .roster {
+    position: relative;
     display: flex;
     flex-direction: column;
     color: white;
@@ -10,4 +11,34 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+}
+
+.roster-modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem 0 3rem;
+    width: 100%;
+    height: 100vh;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    background-color: black;
+}
+
+.no-show {
+    display: none;
+}
+
+.close-btn {
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
 }

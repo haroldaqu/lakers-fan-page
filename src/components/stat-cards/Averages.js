@@ -1,11 +1,10 @@
-import AverageCard from './AverageCard';
 import './Averages.css'
 
-const Averages = () => {
+const Averages = ({stat}) => {
     return ( 
         <div className="averages-cont">
-            <span>TPP</span>
-            <h2>60%</h2>
+             <span>{stat[0].toUpperCase()} </span>
+            <h2>{stat[1]} </h2>
         </div>
      );
 }
