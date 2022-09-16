@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.roster-cont {
+.roster__cont {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
 }
 
-.roster-modal {
+.roster__modal {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -27,11 +27,11 @@
     background-color: black;
 }
 
-.no-show {
+.hide {
     display: none;
 }
 
-.close-btn {
+.modal__btn {
     cursor: pointer;
     position: fixed;
     right: 0;

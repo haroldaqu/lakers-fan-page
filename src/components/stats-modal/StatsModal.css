@@ -1,0 +1,26 @@
+.modal {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.modal__player {
+    display: flex;
+    width: 60%;
+}
+
+.player__img {
+    width: 70%;
+}
+
+.modal__about {
+    width: 40%;
+}
+
+.modal__about > div {
+    height: 33%;
+}
+
+
+
+

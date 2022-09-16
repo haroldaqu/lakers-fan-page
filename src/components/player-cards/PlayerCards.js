@@ -1,5 +1,4 @@
 import './PlayerCards.css'
-import players from '../../data/data';
 
 const PlayerCards = ({player, profile, setToggleModal, statsDataHandle, setStatPlayer, setBioPlayer}) => {
     const filterPlayersHandle = (id) => {
@@ -12,7 +11,7 @@ const PlayerCards = ({player, profile, setToggleModal, statsDataHandle, setStatP
             <div className="player__pic">
                 <img src={player.src} alt="" className='player__pic--image'/>
                 <button 
-                    className='btn__view-stats' 
+                    className='btn btn__view-stats' 
                     onClick={() => {
                         statsDataHandle(player.id)
                         setStatPlayer(player)

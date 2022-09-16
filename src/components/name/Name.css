@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-div.name {
-    /* outline: solid red; */
+.name {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +10,7 @@ div.name {
     color: #FDB927;
 }
 
-div.name span {
-    /* height: 50%; */
+.name span {
     width: 100%;
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.5rem;
@@ -20,7 +18,7 @@ div.name span {
     text-transform: uppercase;
 }
 
-div.name .first-name {
+.name__first {
     height: 35%;
     font-size: 5rem;
     -webkit-text-stroke: 2px;
@@ -28,7 +26,7 @@ div.name .first-name {
     /* transform: scale(1.15); */
 }
 
-div.name .last-name {
+.name__last {
     height: 60%;
     font-size: 6rem;
     /* transform: scale(1.15, 1.35); */

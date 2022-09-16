@@ -11,10 +11,8 @@
     align-items: center;
     width: 100%;
     border: solid white;
-    /* border: solid #FDB927; */
     border-radius: 100% 100% 0 0;
     filter: grayscale(100%);
-    /* background-image: linear-gradient(rgb(253, 185, 39, 0.65), rgb(0, 0, 0, 0)); */
 }
 
 .player__pic:hover {

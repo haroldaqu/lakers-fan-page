@@ -3,7 +3,6 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import Roster from './pages/roster/Roster';
 import Schedule from './pages/schedule/Schedule';
-import players from './data/data';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

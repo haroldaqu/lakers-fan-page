@@ -1,8 +1,7 @@
 import PlayerCards from '../../components/player-cards/PlayerCards';
 import './Roster.css'
-import StatsModal from './stats-modal/StatsModal';
+import StatsModal from '../../components/stats-modal/StatsModal';
 import players from '../../data/data';
-import Sidebar from './sidebar/Sidebar';
 import { useState } from 'react';
 
 const Roster = ({ data, profile, statsDataHandle }) => {
@@ -13,7 +12,7 @@ const Roster = ({ data, profile, statsDataHandle }) => {
     return ( 
         <main className="roster">
             <h1>2021 Roster</h1>
-            <div className="roster-cont">
+            <div className="roster__cont">
                 {
                     players.map((player, i) => (
                         <PlayerCards  
@@ -28,9 +27,9 @@ const Roster = ({ data, profile, statsDataHandle }) => {
                     ))
                 }
             </div>
-            <div className={toggleModal ? 'roster-modal' : 'no-show'}>
+            <div className={toggleModal ? 'roster__modal' : 'hide'}>
                 <button 
-                    className='close-btn' 
+                    className='modal__btn' 
                     onClick={() => setToggleModal(false)}
                 >X</button>
                 <StatsModal 

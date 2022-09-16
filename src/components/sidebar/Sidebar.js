@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Averages from '../../../components/stat-cards/Averages';
+import Averages from '../stat-cards/Averages';
 import './Sidebar.css'
 
 const Sidebar = ({ data }) => {
 
     return ( 
-        <div className="stats-sidebar">
+        <div className="sidebar">
             <p>Career Averages</p>
             {
                 data && Object.entries(data.careerSummary).slice(0,9).map((stat, i) => (
