@@ -1,0 +1,30 @@
+.month {
+    width: 100%;
+    color: white;
+}
+
+.month__days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    color: #767676;
+    font-size: 1.15rem;
+}
+
+.month__days p {
+    /* text-align: center; */
+}
+
+.month__day-cards {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+
+.month > h2 {
+    color: white;
+    /* border-bottom: solid var(--lakers-gold) 1px; */
+}
+

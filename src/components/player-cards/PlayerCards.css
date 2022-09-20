@@ -1,6 +1,12 @@
 .player-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     width: 27.5%;
     margin: 2rem 0 2rem 0;
+    filter: grayscale(100%);
 }
 
 .player__pic {
@@ -10,32 +16,37 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: solid white;
-    border-radius: 100% 100% 0 0;
-    filter: grayscale(100%);
+    border-bottom: solid white;
+    /* border-bottom: solid #FDB927; */
+    border-top: solid transparent;
+    border-left: solid transparent;
+    border-right: solid transparent;
 }
 
-.player__pic:hover {
-    border: solid #FDB927;
-    background-image: linear-gradient(rgb(253, 185, 39, 0.65), rgb(0, 0, 0, 0));
+.player-cards:hover {
     filter: none;
-}
-
-.btn__view-stats {
-    position: absolute;
-    cursor: pointer;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    padding: 0.25rem;
-    border: none;
-    background-color: #FDB927;
-    border-radius: 2.5px 0 0 0;
-    color: black;
+    color: white;
 }
 
 .player__pic--image {
     width: 100%;
+}
+
+.btn__view-stats {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    cursor: pointer;
+    text-align: center;
+    padding: 0.75rem;
+    /* font-size: 1rem; */
+    border: none;
+    background-color: var(--lakers-gold);
+    border: none;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .player__info {
@@ -52,8 +63,10 @@
     width: 100%;
     letter-spacing: 0.15rem;
     word-spacing: 1.15rem;
-    color: white;
+    /* color:var(--lakers-gold); */
 }
+
+
 
 
 

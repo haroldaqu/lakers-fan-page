@@ -1,0 +1,7 @@
+.coach {
+    width: 100%;
+}
+
+.coach > img {
+    width: 30%;
+}

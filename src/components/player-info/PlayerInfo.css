@@ -21,8 +21,9 @@
 }
 
 .info__item span {
-    border-bottom: solid var(--lakers-gold) 1px;
+    /* border-bottom: solid var(--lakers-gold) 1px; */
     text-align: center;
+    color: #767676;
 }
 
 .info__item p {

@@ -3,6 +3,7 @@ import './Roster.css'
 import StatsModal from '../../components/stats-modal/StatsModal';
 import players from '../../data/data';
 import { useState } from 'react';
+import Coach from '../../components/coach/Coach';
 
 const Roster = ({ data, profile, statsDataHandle }) => {
     const [toggleModal, setToggleModal] = useState(false)
@@ -11,7 +12,8 @@ const Roster = ({ data, profile, statsDataHandle }) => {
     
     return ( 
         <main className="roster">
-            <h1>2021 Roster</h1>
+            <h1>Roster</h1>
+            <p>17x Champions, get to know your 2021-21 Lakers Team</p>
             <div className="roster__cont">
                 {
                     players.map((player, i) => (

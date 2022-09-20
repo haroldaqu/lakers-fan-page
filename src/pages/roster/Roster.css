@@ -6,6 +6,14 @@
     width: 100%;
 }
 
+.roster > h1 {
+    color: var(--lakers-gold);
+}
+
+.roster > p {
+    color: #767676
+}
+
 .roster__cont {
     display: flex;
     flex-wrap: wrap;

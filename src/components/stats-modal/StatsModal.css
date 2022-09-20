@@ -15,10 +15,17 @@
 
 .modal__about {
     width: 40%;
+    /* color: #767676; */
 }
 
 .modal__about > div {
     height: 33%;
+}
+
+.modal__bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

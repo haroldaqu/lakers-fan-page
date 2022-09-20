@@ -7,22 +7,27 @@ const PlayerCards = ({player, profile, setToggleModal, statsDataHandle, setStatP
     }
 
     return ( 
-        <div className="player-cards">
-            <div className="player__pic">
-                <img src={player.src} alt="" className='player__pic--image'/>
-                <button 
-                    className='btn btn__view-stats' 
-                    onClick={() => {
+        <div className="player-cards" onClick={() => {
                         statsDataHandle(player.id)
                         setStatPlayer(player)
                         filterPlayersHandle(player.id)
                         setToggleModal(true)
-                    }} 
-                >View Stats</button>
+        }} >  
+            <div className="player__pic">
+                <img src={player.src} alt="" className='player__pic--image'/>
             </div>   
             <div className="player__info">
                 <span className='player__info--name'> {player.name} </span>
-            </div>         
+            </div>     
+            <button 
+                className='btn btn__view-stats' 
+                onClick={() => {
+                    statsDataHandle(player.id)
+                    setStatPlayer(player)
+                    filterPlayersHandle(player.id)
+                    setToggleModal(true)
+                }} 
+            >Player Stats</button>  
         </div>
 
      );
