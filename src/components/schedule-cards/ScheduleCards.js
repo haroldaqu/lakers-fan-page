@@ -18,7 +18,11 @@ const ScheduleCards = ({filteredGame, setToggleModal, boxScoreDataHandle}) => {
 
     return ( 
         <div className="schedule-cards">
-            <div className="mini-box-score">
+            <div className="mini-box-score"
+                    onClick={() => {
+                        boxScoreDataHandle(filteredGame[0].homeStartDate, filteredGame[0].gameId)
+                        setToggleModal(true)
+                    }}>
                 <img src={`https://cdn.nba.com/logos/nba/${filteredGame[0].isHomeTeam ? filteredGame[0].vTeam.teamId : filteredGame[0].hTeam.teamId}/primary/L/logo.svg`} alt="" />
                 <span>{results}</span>
                 <div className="mini-score">

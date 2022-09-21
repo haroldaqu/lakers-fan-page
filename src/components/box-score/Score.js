@@ -1,6 +1,6 @@
 import './Score.css'
 
-const Score = () => {
+const Score = ({boxScore}) => {
     return ( 
         <div className="score">
             <h1>Final</h1>
@@ -11,16 +11,10 @@ const Score = () => {
                 <p>Q4</p>
             </div>
             <div className="score__team--home">
-                <p>25</p>
-                <p>25</p>
-                <p>25</p>
-                <p>25</p>
+                {boxScore.hTeam.linescore.map(quarter => <p>{quarter.score}</p> )}
             </div>
             <div className="score__team--away">
-                <p>25</p>
-                <p>25</p>
-                <p>25</p>
-                <p>25</p>
+                {boxScore.vTeam.linescore.map(quarter => <p>{quarter.score}</p> )}
             </div>
             <button>Watch</button>
         </div>

@@ -1,10 +1,12 @@
 .schedule-cards {
-    /* height: 12rem; */
     width: 100%;
-    /* color: white;
-    border: solid white; */
-    /* border-radius: 10px; */
     color: white;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.schedule-cards:hover {
+    filter: none;
 }
 
 .schedule-cards > p {
@@ -31,7 +33,7 @@
 }
 
 .mini-box-score > button {
-    background-color: white;
+    background-color: var(--lakers-gold);
     color: black;
     border: none;
     border-radius: 20px;

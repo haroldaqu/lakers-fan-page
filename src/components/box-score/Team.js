@@ -1,12 +1,12 @@
 import './Team.css'
 
-const Team = ({boxScore}) => {
+const Team = ({finalScore}) => {
     return ( 
         <div className="team">
-            <img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="" />
-            <h1>Lakers</h1>
-            <span>100</span>
-            <p>30-29</p>
+            <img src={`https://cdn.nba.com/logos/nba/${finalScore.teamId}/primary/L/logo.svg`} alt="" />
+            <h1>{finalScore.triCode}</h1>
+            <span>{finalScore.score}</span>
+            <p>{`${finalScore.win}-${finalScore.loss}`}</p>
         </div>
      );
 }
