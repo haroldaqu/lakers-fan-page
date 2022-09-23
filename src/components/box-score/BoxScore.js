@@ -5,9 +5,12 @@ import Team from './Team';
 const BoxScore = ({boxScore}) => {
     return ( 
         <div className="box-score">
-            <Team  finalScore={boxScore.vTeam} />
+            <div className="box-score__teams">
+                <Team  finalScore={boxScore && boxScore.vTeam} />
+                <h1>Final</h1>
+                <Team finalScore={boxScore && boxScore.hTeam}/>
+            </div>
             <Score boxScore={boxScore}/>
-            <Team finalScore={boxScore.hTeam}/>
         </div>
      );
 }

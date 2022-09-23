@@ -2,18 +2,29 @@
     width: 100%;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: #767676;
+}
+
+.box-score__teams {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-score__teams > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
     color: white;
 }
 
-.box-score > button {
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 2rem;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    border: none;
+.box-score button {
+    background-color: var(--lakers-gold);
+        color: black;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5rem;
+        cursor: pointer;
 }

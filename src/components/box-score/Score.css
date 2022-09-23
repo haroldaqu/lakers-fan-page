@@ -1,14 +1,38 @@
 .score {
-    width: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.game-score {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.25rem;
 }
 
-.score > div {
+.score__team > .team-name {
+    color: white;
+}
+
+.empty {
+    color: black;
+}
+
+.game-score > div {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap:2rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap:1rem;
+}
+
+.team-score {
+    text-align: center;
+}
+
+.team-score > h1 {
+    color: white;
 }
 
