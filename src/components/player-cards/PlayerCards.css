@@ -61,9 +61,20 @@
     text-align: center;
     font-size: 2rem;
     width: 100%;
-    letter-spacing: 0.15rem;
-    word-spacing: 1.15rem;
+    letter-spacing: 0.1rem;
+    /* word-spacing: 1.15rem; */
     /* color:var(--lakers-gold); */
+}
+
+/* fix name font size because it throws alignment of cards off */
+@media (max-width: 950px){
+    .player__info--name {
+        font-size: 1.45rem;
+    }
+
+    .btn__view-stats {
+        padding: 0.25rem;
+    }
 }
 
 

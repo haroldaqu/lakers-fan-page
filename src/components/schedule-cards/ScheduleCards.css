@@ -41,4 +41,16 @@
     cursor: pointer;
 }
 
+@media (max-width: 750px) {
+    .mini-box-score {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .mini-box-score > img {
+        width: 40%;
+    }
+}
+
 

@@ -6,7 +6,7 @@ import './Month.css'
 const Month = ({i, month, schedule, setToggleModal, boxScoreDataHandle}) => {
     const [totalDays, setTotalDays] = useState(null)
     const totalDaysInSeason = [...Array(parseInt(month.days)).keys()].map(x => { return {homeStartDate: x + parseInt(month.start)} })
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    const days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']
 
     useEffect(() => {
         setTotalDays(totalDaysInSeason)

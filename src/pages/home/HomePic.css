@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .home-pic {
-    /* background-color: #FDB927; */
+    /* background-color: white; */
     position: relative;
     width: 100%;
     display: flex;
@@ -11,13 +11,15 @@
     height: 90vh;
 }
 
+
+
 .home-pic .lakers-duo {
-    position: absolute;
-    /* filter: grayscale(100%) brightness(0.9); */
+    /* position: absolute; */
+    filter: grayscale(100%) brightness(0.7);
     /* filter: brightness(0.95); */
     /* opacity: 0.9; */
     /* height: 100vh; */
-    width: 35%;
+    width: 100%;
     z-index: 2;
     background: transparent;
     left: 0;

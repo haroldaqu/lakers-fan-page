@@ -91,8 +91,6 @@ const Schedule = ({schedule, boxScoreDataHandle, boxScore}) => {
                 <BoxScore  boxScore={boxScore} />
             </div>
             {months.map((month, i )=> <Month  setToggleModal={setToggleModal}   boxScoreDataHandle={boxScoreDataHandle} key={i}  month={month} schedule={schedule} boxScore={boxScore}/>)}
-            {/* {schedule && schedule.map((game, i) =>   <ScheduleCards key={i}  game={game} />)} */}
-            {/* <Month schedule={schedule}/> */}
         </main>
      );
 }

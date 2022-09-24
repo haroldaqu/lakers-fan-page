@@ -1,6 +1,7 @@
 .month {
     width: 100%;
     color: white;
+    margin-bottom: 3rem;
 }
 
 .month__days {
@@ -25,6 +26,17 @@
 
 .month > h2 {
     color: white;
+    text-decoration: underline var(--lakers-gold);
     /* border-bottom: solid var(--lakers-gold) 1px; */
 }
 
+@media (max-width: 750px) {
+    .month__days {
+        display: none;
+    }
+
+    .month__day-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

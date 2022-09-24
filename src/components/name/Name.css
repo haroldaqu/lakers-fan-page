@@ -13,7 +13,7 @@
 .name span {
     width: 100%;
     font-family: 'Anton', sans-serif;
-    letter-spacing: 0.5rem;
+    /* letter-spacing: 0.5rem; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -30,4 +30,8 @@
     height: 60%;
     font-size: 6rem;
     /* transform: scale(1.15, 1.35); */
+}
+
+@media (max-width: 1250px) {
+
 }
