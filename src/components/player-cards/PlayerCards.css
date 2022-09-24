@@ -77,6 +77,26 @@
     }
 }
 
+@media (max-width: 750px) {
+    .player-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        gap: 1rem;
+        border-bottom: solid white;
+        width: 100%;
+    }
+
+    .player__pic {
+        border: none;
+        width: 35%;
+    }
+
+    .player__pic--image {
+        width: 100%;
+    }
+}
+
 
 
 

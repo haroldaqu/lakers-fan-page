@@ -56,13 +56,10 @@ const App = () => {
     }
   }
 
-  // 1. map data 2. check if game.homestartDate.slice exist 3. if it doesnt exist, then create a new object inside set schedule and push that data there, 4. if it exist, just push data to proper place 5. 
 
   useEffect(() => {
     profileDataHandle('1610612747')
     scheduleDataHandle()
-    // setSchedule(totalDaysInSeason)
-    // console.log(totalDaysInSeason)
   },[])
 
   return (
