@@ -6,7 +6,7 @@ const players = [
     // },
     {
         id: '2544',
-        src: require('/Users/Harold/lakers-fan-page/src/images/lbj.png'), 
+        src: require('../images/lbj.png'), 
         name: 'LeBron James',
         first: 'LeBron',
         last: 'James',
@@ -14,7 +14,7 @@ const players = [
     },
     {
         id: '203076',
-        src: require('/Users/Harold/lakers-fan-page/src/images/davis.png'), 
+        src: require('../images/davis.png'), 
         name: 'Anthony Davis',
         first: 'Anthony',
         last: 'Davis',
@@ -23,7 +23,7 @@ const players = [
     },
     {
         id: '201566',
-        src: require('/Users/Harold/lakers-fan-page/src/images/westbrook.png'), 
+        src: require('../images/westbrook.png'), 
         name: 'Russell Westbrook',
         first: 'Russell',
         last: 'Westbrook',
@@ -31,7 +31,7 @@ const players = [
     },
     {
         id: '201571',
-        src: require('/Users/Harold/lakers-fan-page/src/images/augustine.png'), 
+        src: require('../images/augustine.png'), 
         name: 'D.J. Augustin',
         first: 'D.J.',
         last: 'Augustin',
@@ -39,7 +39,7 @@ const players = [
     },
     {
         id: '203145',
-        src: require('/Users/Harold/lakers-fan-page/src/images/bazemore.png'), 
+        src: require('../images/bazemore.png'), 
         name: 'Kent Bazemore',
         first: 'Kent',
         last: 'Bazemore',
@@ -47,7 +47,7 @@ const players = [
     },
     {
         id: '202340',
-        src: require('/Users/Harold/lakers-fan-page/src/images/bradley.png'), 
+        src: require('../images/bradley.png'), 
         name: 'Avery Bradley',
         first: 'Avery',
         last: 'Bradley',
@@ -55,7 +55,7 @@ const players = [
     },
     {
         id: '201961',
-        src: require('/Users/Harold/lakers-fan-page/src/images/ellington.png'), 
+        src: require('../images/ellington.png'), 
         name: 'Wayne Ellington',
         first: 'Wayne',
         last: 'Ellington',
@@ -63,7 +63,7 @@ const players = [
     },
     {
         id: '2730',
-        src: require('/Users/Harold/lakers-fan-page/src/images/howard.png'), 
+        src: require('../images/howard.png'), 
         name: 'Dwight Howard',
         first: 'Dwight',
         last: 'Howard',
@@ -71,7 +71,7 @@ const players = [
     },
     {
         id: '1626169',
-        src: require('/Users/Harold/lakers-fan-page/src/images/johnson.png'), 
+        src: require('../images/johnson.png'), 
         name: 'Stanley Johnson',
         first: 'Stanley',
         last: 'Johnson',
@@ -79,7 +79,7 @@ const players = [
     },
     {
         id: '1630644',
-        src: require('/Users/Harold/lakers-fan-page/src/images/mcclung.png'), 
+        src: require('../images/mcclung.png'), 
         name: 'Mac McClung',
         first: 'Mac',
         last: 'McClung',
@@ -87,7 +87,7 @@ const players = [
     },
     {
         id: '2546',
-        src: require('/Users/Harold/lakers-fan-page/src/images/melo.png'), 
+        src: require('../images/melo.png'), 
         name: 'Carmelo Anthony',
         first: 'Carmelo',
         last: 'Anthony',
@@ -95,7 +95,7 @@ const players = [
     },
     {
         id: '1628370',
-        src: require('/Users/Harold/lakers-fan-page/src/images/monk.png'), 
+        src: require('../images/monk.png'), 
         name: 'Malik Monk',
         first: 'Malik',
         last: 'Monk',
@@ -103,7 +103,7 @@ const players = [
     },
     {
         id: '1629134',
-        src: require('/Users/Harold/lakers-fan-page/src/images/nunn.png'), 
+        src: require('../images/nunn.png'), 
         name: 'Kendrick Nunn',
         first: 'Kendrick',
         last: 'Nunn',
@@ -111,7 +111,7 @@ const players = [
     },
     {
         id: '1630559',
-        src: require('/Users/Harold/lakers-fan-page/src/images/reaves.png'), 
+        src: require('../images/reaves.png'), 
         name: 'Austine Reaves',
         first: 'Austin',
         last: 'Reaves',
@@ -120,7 +120,7 @@ const players = [
     },
     {
         id: '1629659',
-        src: require('/Users/Harold/lakers-fan-page/src/images/tucker.png'), 
+        src: require('../images/tucker.png'), 
         name: 'Talen Horton',
         first: 'Talen',
         last: 'Horton',
@@ -129,7 +129,7 @@ const players = [
 
     {
         id: '1629117',
-        src: require('/Users/Harold/lakers-fan-page/src/images/gabriel.png'), 
+        src: require('../images/gabriel.png'), 
         name: 'Wenyen Gabriel',
         first: 'Wenyen',
         last: 'Gabriel',
