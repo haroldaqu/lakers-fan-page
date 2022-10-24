@@ -1,9 +1,10 @@
+
+
 .averages span{
     /* border-bottom:solid #767676 1px; */
     color: #767676;
 }
 
-.averages h2 {
-    /* color: #767676; */
-    /* border-bottom:solid var(--lakers-gold) 1px */
+.averages p {
+    font-size: 1.25rem ;
 }
