@@ -5,35 +5,35 @@ const PlayerInfo = ({bioPlayer}) => {
 
     return ( 
         <div className="info">
-            {
-                bioPlayer ?
+            {/* {
+                bioPlayer ? */}
                     <div className="info__cont">
                             <div className="info__item">
                                 <span>Jersey</span>
-                                <p> {bioPlayer[0].jersey} </p>
+                                <p> 0 </p>
                             </div>
                             <div className="info__item">
                                 <span>Position</span>
-                                <p> {bioPlayer[0].pos} </p>
+                                <p> G </p>
                             </div>
                             <div className="info__item">
                                 <span>Height</span>
-                                <p> {`${bioPlayer[0].heightFeet}'${bioPlayer[0].heightInches}`} </p>
+                                <p> 6'10 </p>
                             </div>
                             <div className="info__item">
                                 <span>Weight </span>
-                                <p> {bioPlayer[0].weightPounds} </p>
+                                <p> 210 lbs </p>
                             </div>
                             <div className="info__item">
                                 <span>Debut</span>
-                                <p> {bioPlayer[0].nbaDebutYear} </p>
+                                <p> 2003 </p>
                             </div>
                             <div className="info__item">
                                 <span>Country</span>
-                                <p> {bioPlayer[0].country} </p>
+                                <p> USA </p>
                             </div>
-                        </div> : null
-            }
+                        </div> 
+            {/* } */}
         </div>
      );
 }

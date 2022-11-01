@@ -6,9 +6,13 @@ const BoxScore = ({boxScore}) => {
     return ( 
         <div className="box-score">
             <div className="box-score__teams">
-                <Team  finalScore={boxScore && boxScore.vTeam} />
+                <div className="team">
+                    <img src={`https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg`} alt="" />
+                </div>
                 <h1>Final</h1>
-                <Team finalScore={boxScore && boxScore.hTeam}/>
+                <div className="team">
+                    <img src={`https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg`} alt="" />
+                </div>
             </div>
             <Score boxScore={boxScore}/>
         </div>

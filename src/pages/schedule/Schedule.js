@@ -4,7 +4,7 @@ import Month from '../../components/month/Month';
 import BoxScore from '../../components/box-score/BoxScore';
 import { useState } from 'react';
 
-const Schedule = ({schedule, boxScoreDataHandle, boxScore}) => {
+const Schedule = ({schedule, boxScore}) => {
     const [toggleModal, setToggleModal] = useState(false)
     const monthNames = ['November', 'December', 'January', 'February', 'March', 'April']
     const months = [
@@ -90,7 +90,7 @@ const Schedule = ({schedule, boxScoreDataHandle, boxScore}) => {
                 <button  onClick={() => setToggleModal(false)}>X</button>
                 <BoxScore  boxScore={boxScore} />
             </div>
-            {months.map((month, i )=> <Month  setToggleModal={setToggleModal}   boxScoreDataHandle={boxScoreDataHandle} key={i}  month={month} schedule={schedule} boxScore={boxScore}/>)}
+            {months.map((month, i )=> <Month  setToggleModal={setToggleModal}   key={i}  month={month} schedule={schedule} boxScore={boxScore}/>)}
         </main>
      );
 }

@@ -5,7 +5,7 @@ import players from '../../data/data';
 import { useState } from 'react';
 import Coach from '../../components/coach/Coach';
 
-const Roster = ({ data, profile, statsDataHandle }) => {
+const Roster = ({ data, profile }) => {
     const [toggleModal, setToggleModal] = useState(false)
     const [statPlayer, setStatPlayer] = useState(null)
     const [bioPlayer, setBioPlayer] = useState(null)
@@ -22,7 +22,7 @@ const Roster = ({ data, profile, statsDataHandle }) => {
                             player={player} 
                             profile={profile}
                             setToggleModal={setToggleModal} 
-                            statsDataHandle={statsDataHandle}
+                            // statsDataHandle={statsDataHandle}
                             setStatPlayer={setStatPlayer}
                             setBioPlayer={setBioPlayer}
                         />

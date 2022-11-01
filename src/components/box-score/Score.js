@@ -4,9 +4,9 @@ const Score = ({boxScore}) => {
     return ( 
         <div className="score">
             <div className="team-score">
-                <h1>{boxScore && boxScore.vTeam.triCode}</h1> 
-                <span>{boxScore && boxScore.vTeam.score}</span>  
-                <p>{`${boxScore && boxScore.vTeam.win}-${boxScore && boxScore.vTeam.loss}`}</p>             
+                <h1>Lakers</h1> 
+                <span>100</span>  
+                <p>0-0</p>             
             </div>
             <div className="game-score">
                 <div className="score__quarters">
@@ -17,19 +17,25 @@ const Score = ({boxScore}) => {
                     <p>Q4</p>
                 </div>
                 <div className="score__team score__team--home">
-                    <p className='team-name' >{boxScore && boxScore.vTeam.triCode}</p>
-                    {boxScore && boxScore.hTeam.linescore.map(quarter => <p>{quarter.score}</p> )}
+                    <p className='team-name' >Home</p>
+                    <p>25</p>
+                    <p>25</p>
+                    <p>25</p>
+                    <p>25</p>
                 </div>
                 <div className="score__team score__team--away">
-                    <p className='team-name' >{boxScore && boxScore.hTeam.triCode}</p>
-                    {boxScore && boxScore.vTeam.linescore.map(quarter => <p>{quarter.score}</p> )}
+                    <p className='team-name' >Away</p>
+                    <p>25</p>
+                    <p>25</p>
+                    <p>25</p>
+                    <p>25</p>
                 </div>
                 <button>Watch</button>
             </div>
             <div className="team-score">
-                <h1>{boxScore && boxScore.hTeam.triCode}</h1> 
-                <span>{boxScore && boxScore.hTeam.score}</span>  
-                <p>{`${boxScore && boxScore.hTeam.win}-${boxScore && boxScore.hTeam.loss}`}</p>                   
+                <h1>Warriors</h1> 
+                <span>100</span>  
+                <p>0-0</p>                   
             </div>
         </div>
      );
